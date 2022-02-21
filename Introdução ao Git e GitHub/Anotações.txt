@@ -1,0 +1,73 @@
+link para acesso do git : https://git-scm.com/
+
+
+git : ajuda na criação de codigo é um sistema de vercionamento de codigos 
+foi criado em 2005 por linus torvalds
+
+Simplificando as coisas, o GIT é um sistema de controle de versão de código distribuído, 
+open source e gratuito, enquanto que o GITHUB é uma plataforma de desenvolvimento em que você pode armazenar códigos, 
+gerenciar seus projetos e construir softwares e aplicações
+
+1° controle de versão
+2° armazenamento em nuvem
+3° trabalho em equipe
+4° melhorar seu codigo
+5° reconhecimento
+
+Comando CMD
+DIR (wind) LS (linux) : listar pastas do computador
+CD / : para navegar para um lugar especifico do computador
+CD .. : para retorceder da pasta na qual foi acessado
+cls : limpar a tela do terminal (W) CLEAR atalho ctrl+l (L)
+mkdir : para criar uma pasta
+echo: print  oq foi escrito ao usar comando : echo hello > hello.txt o sistema ira criar um arquivo 
+caso o mesmo não exista ainda 
+del: informar a pasta e ira deletar arquivos de dentro da pasta
+rmdir: remove a pasta e os arquivos que estão pasta
+
+SHA1 (SEGURE HASH ALGORITHM/ALGORITIMO DE HASH SEGURO), é um conjunto de funções
+criptograficas projetadas pela NSA
+A encriptação gera conjunto de caracteres identificador de 40 digitos
+onde esse conjunto é unico e serve como identificação
+é um a forma curta de representar um arquivo
+
+BLOBS : Cada arquivo no Git é armazenado como um objeto blob, por exemplo, a partir do conteúdo do arquivo logo.png
+ele gera um hash que será armazenado em algum lugar endereçável como aa1b2fb696a831c89c53f787e03d863691d2b671 . 
+O mesmo ocorre com o arquivo app.css que é armazenado em 4c511f16ef2644854d04cabebfcecc82be0eb04f e assim também acontece com o arquivo app.js. 
+
+TREES : O próximo tipo que iremos ver é a tree (árvore), que resolve o problema de armazenar o 
+nome de arquivo e também permite armazenar de forma conjunta um grupo de arquivos. 
+O Git armazena o conteúdo em uma maneira similar a um sistema de arquivos UNIX, porém um pouco simplificado. 
+Todo o conteúdo é armazenado como objetos tree e blob, com as trees correspondendo a entradas de um diretório UNIX e blobs 
+correspondendo mais ou menos a inodes ou conteúdos de arquivos. Um único objeto tree contém uma ou mais entradas, cada uma contendo uma 
+referência SHA-1 para um blob ou subtree com seu modo, tipo e nome de arquivo associados. 
+
+COMMITS :O Git commit permite que você crie um commit, ou seja, você consegue guardar o estado do seu repositório naquele momento. ...
+Um commit, além de mostrar um snapshot do seu repositório, tem outros metadados, como autoria, uma mensagem, timestamp, entre outros.
+
+
+Chave SSH Só pra lembrar, SSH (Secure Shell) é um protocolo criptográfico que permite a conexão em servidores de maneira segura sem expor nome de usuário e senha. 
+Para isso, é necessário estabelecer uma conexão informando uma chave SSH válida.
+
+COMANDOS :
+git init : serve para que você crie o seu repositório localmente, no seu computador. Para isso, se você quiser criar um novo repositório, 
+crie uma pasta (ou se você quiser iniciar um repositório em uma pasta que já existe, vá até ela) e digite o comando git init e pronto, 
+seu repositório Git foi criado!
+
+
+git commit : O Git commit permite que você crie um commit, ou seja, você consegue guardar o estado do seu repositório naquele momento.
+Existem diferentes estratégias para fazer commits, mas a ideia principal é que a cada ponto em que
+o seu código esteja funcionando com uma nova pequena funcionalidade, exista um commit.
+
+
+git add :  O comando git add pertence ao sistema de controle de versões chamado de Git. Esse comando realiza a inclusão 
+ou modificação do arquivo no diretório local, 
+preparando ele para ser entregue ao servidor remoto para a mesma aplicação que está sincronizada na máquina local.
+
+
+
+
+
+
+
+
